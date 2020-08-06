@@ -12,13 +12,24 @@ describe('should test Prisma client and PgBouncer', () => {
 
   })
 
-  it('should work with default do pgbouncer without the pgbouncer query string param', async () => {
-    // TODO: This is expected to throw but it doesn't
-    const data = await clientWithoutQueryStringParamCall()
-    expect(data).toMatchSnapshot()
+  it('should fail with default do pgbouncer without the pgbouncer query string param', async () => {
+    try {
+      await clientWithoutQueryStringParamCall()
 
-    const data1 = await clientWithoutQueryStringParamCall()
-    expect(data1).toMatchSnapshot()
+      /*
+      * Query engine instance names prepared statements serially s0, s1 and so on. Without the `pgbouncer=true` flag, 
+      * prepared statements are not cleaned up in PgBouncer. By doing disconnect/reconnect, we get a 
+      * new instance of query engine that starts again at s0. And we expect the next client call to throw
+      * "prepared statement s0 already exists"
+      */
+      await client.disconnect()
+      await client.connect()
+
+      await clientWithoutQueryStringParamCall()
+      expect(1).toEqual(0) // The code should never reach here
+    } catch (e) {
+      expect(e).toMatchSnapshot()
+    }
   })
 
   it('should work with default do pgbouncer with the pgbouncer query string param', async () => {

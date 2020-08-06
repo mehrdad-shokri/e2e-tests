@@ -512,15 +512,15 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@prisma/cli@2.4.0-dev.41":
-  version "2.4.0-dev.41"
-  resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.4.0-dev.41.tgz#957ca4dbb3d805151fa0d719143f64d93481cc0e"
-  integrity sha512-CCZzRzc+Vs71U3mi35hoCLEZdoyIrPNa+Dz7/gy6H3Ru4XolDVgZkGU/eRKvdVGj1N7NgZpAaeWUXp4Cdz2raA==
+"@prisma/cli@2.5.0-dev.7":
+  version "2.5.0-dev.7"
+  resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.5.0-dev.7.tgz#3ce03188524126da95ce14c5b7a2a8e699588217"
+  integrity sha512-JE8z/8TRA1yShRj0fEkGUNSWIpCu5aMISMAIjk9F/Kw2+8ztCuizZduz/RB7w2iXBfyFvtfke6fCAlf7TnANyQ==
 
-"@prisma/client@2.4.0-dev.41":
-  version "2.4.0-dev.41"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.4.0-dev.41.tgz#39e22bbdd721bb488f25f183aeecd0ce6b6d333e"
-  integrity sha512-Q1V4jMdkGKOKNsJVhMPXwThXzAWyo7jyOYKN+MA8/jtagt+MsRPvZyc9RJhoKHu7Ov4V3fMIHUbTgGMTj68Wjg==
+"@prisma/client@2.5.0-dev.7":
+  version "2.5.0-dev.7"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.5.0-dev.7.tgz#5f3cf0eeae3aecfa727b15af5976c6c93a1cadf4"
+  integrity sha512-xcwWyatKY+CorzUkwTc3Iiwwr4R6XR27EwYxxr2UY4w4xuNCSrtweukJZKiuc40uAZFblSkDKwPhpixQ/RLOEA==
   dependencies:
     pkg-up "^3.1.0"
 
@@ -610,10 +610,10 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@26.0.8":
-  version "26.0.8"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.8.tgz#f5c5559cf25911ce227f7ce30f1f160f24966369"
-  integrity sha512-eo3VX9jGASSuv680D4VQ89UmuLZneNxv2MCZjfwlInav05zXVJTzfc//lavdV0GPwSxsXJTy2jALscB7Acqg0g==
+"@types/jest@26.0.9":
+  version "26.0.9"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.9.tgz#0543b57da5f0cd949c5f423a00c56c492289c989"
+  integrity sha512-k4qFfJ5AUKrWok5KYXp2EPm89b0P/KZpl7Vg4XuOTVVQEhLDBDBU3iBFrjjdgd8fLw96aAtmnwhXHl63bWeBQQ==
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
