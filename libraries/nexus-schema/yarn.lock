@@ -67,15 +67,15 @@
   resolved "https://registry.yarnpkg.com/@prisma/ci-info/-/ci-info-2.1.2.tgz#3da64f54584bde0aaf4b42f298a6c63f025aeb3f"
   integrity sha512-RhAHY+wp6Nqu89Tp3zfUVkpGfqk4TfngeOWaMGgmhP7mB2ASDtOl8dkwxHmI8eN4edo+luyjPmbJBC4kST321A==
 
-"@prisma/cli@2.5.0-dev.15", "@prisma/cli@^2.4.0":
-  version "2.5.0-dev.15"
-  resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.5.0-dev.15.tgz#c77ce79f1e35c43252139161fb4f042a0f6496b0"
-  integrity sha512-lhJ8d7YYz7srNqmLRbvzFo5cWxkrY0Yku3Lab+SdJjXzhJO/veyexSF3HJCHP3JGVHd/oSPadB4F+NeQ2ijOwQ==
+"@prisma/cli@2.5.0-dev.17", "@prisma/cli@^2.4.0":
+  version "2.5.0-dev.17"
+  resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.5.0-dev.17.tgz#30e019c3d5fa83e5f87ac8e7ae6040bdbb3bb552"
+  integrity sha512-/e0AGSr5ikzCZ9KdAVJqjb3kAHIKnAmUhanwbza+ry7lSVtzzwFKDMwxeOmtoQzxH1JCn35hKtxq4q5e1AyrVQ==
 
-"@prisma/client@2.5.0-dev.15", "@prisma/client@^2.4.0":
-  version "2.5.0-dev.15"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.5.0-dev.15.tgz#82416efedcc5ef2e68f07c9022ec4c763a2deb6b"
-  integrity sha512-cLI6xQC/C77n0Q6D8b6d++wToeblcURAkoeW4NmLWBBXcHufdwMPIibmiMV3K3dQMdDSLqoTK2/Bmzr/DGrLFQ==
+"@prisma/client@2.5.0-dev.17", "@prisma/client@^2.4.0":
+  version "2.5.0-dev.17"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.5.0-dev.17.tgz#3f70656f661a885e7539456723d5746b4da1d1a6"
+  integrity sha512-ASxSkGjhnc9RnXMzF+BEf1aFfvYhbDHas8ak1ZGJkglI/DBd50C5syrZ00XEezF+m96zci533D8rMT6Sx8BOtg==
   dependencies:
     pkg-up "^3.1.0"
 
@@ -1132,12 +1132,10 @@ graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
 
-graphql@14.6.0:
-  version "14.6.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.6.0.tgz#57822297111e874ea12f5cd4419616930cd83e49"
-  integrity sha512-VKzfvHEKybTKjQVpTFrA5yUq2S9ihcZvfJAtsDBBCuV6wauPu1xl/f9ehgVf0FcEJJs4vz6ysb/ZMkGigQZseg==
-  dependencies:
-    iterall "^1.2.2"
+graphql@15.3.0:
+  version "15.3.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.3.0.tgz#3ad2b0caab0d110e3be4a5a9b2aa281e362b5278"
+  integrity sha512-GTCJtzJmkFLWRfFJuoo9RWWa/FfamUHgiFosxi/X1Ani4AVWbeyBenZTNX6dM+7WSbbFfTo/25eh0LLkwHMw2w==
 
 has-flag@^3.0.0:
   version "3.0.0"
